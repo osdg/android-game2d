@@ -1,0 +1,8 @@
+.idea
+*.iml
+gen
+bin
+cocos2d
+out
+build
+.settings
