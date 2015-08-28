@@ -6,3 +6,6 @@ cocos2d
 out
 build
 .settings
+.metadata
+RemoteSystemsTempFiles
+obj

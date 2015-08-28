@@ -1,0 +1,2 @@
+include ':app'
+include ':libcocos2dx'

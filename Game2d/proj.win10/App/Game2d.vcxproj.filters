@@ -73,7 +73,7 @@
     <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Game2d_TemporaryKey.pfx" />
+    <None Include="Game2D_TemporaryKey.pfx" />
     <None Include="$(AngleBinPath)libEGL.dll" />
     <None Include="$(AngleBinPath)libGLESv2.dll" />
     <None Include="$(ZLibBinPath)zlib.dll" />
