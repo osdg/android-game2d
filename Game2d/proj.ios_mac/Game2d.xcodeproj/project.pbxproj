@@ -59,6 +59,10 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		65D20560133F95BCEC05DA33 /* org_osdg_game2d_Director.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */; };
+		65D20A563AF25271D13FE79E /* JniHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2073745416881C52BF675 /* JniHelper.cpp */; };
+		65D20D4952E27E12BCCA69B5 /* org_osdg_game2d_Director.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */; };
+		65D20F9208BFC79FBF5F650E /* JniHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2073745416881C52BF675 /* JniHelper.cpp */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -153,6 +157,10 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		65D20584D179B32CB82A28CC /* JniHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JniHelper.h; sourceTree = "<group>"; };
+		65D2073745416881C52BF675 /* JniHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JniHelper.cpp; sourceTree = "<group>"; };
+		65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = org_osdg_game2d_Director.cpp; sourceTree = "<group>"; };
+		65D20C4415BBC0C125072D5E /* org_osdg_game2d_Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_osdg_game2d_Director.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -301,6 +309,10 @@
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
+				65D2073745416881C52BF675 /* JniHelper.cpp */,
+				65D20584D179B32CB82A28CC /* JniHelper.h */,
+				65D20C4415BBC0C125072D5E /* org_osdg_game2d_Director.h */,
+				65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -504,6 +516,8 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				65D20F9208BFC79FBF5F650E /* JniHelper.cpp in Sources */,
+				65D20D4952E27E12BCCA69B5 /* org_osdg_game2d_Director.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +528,8 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				65D20A563AF25271D13FE79E /* JniHelper.cpp in Sources */,
+				65D20560133F95BCEC05DA33 /* org_osdg_game2d_Director.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,19 +693,20 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../cocos2d",
-					"$(SRCROOT)/../cocos2d/cocos",
-					"$(SRCROOT)/../cocos2d/cocos/base",
-					"$(SRCROOT)/../cocos2d/cocos/physics",
-					"$(SRCROOT)/../cocos2d/cocos/math",
-					"$(SRCROOT)/../cocos2d/cocos/2d",
-					"$(SRCROOT)/../cocos2d/cocos/ui",
-					"$(SRCROOT)/../cocos2d/cocos/network",
-					"$(SRCROOT)/../cocos2d/cocos/audio/include",
-					"$(SRCROOT)/../cocos2d/cocos/editor-support",
-					"$(SRCROOT)/../cocos2d/extensions",
-					"$(SRCROOT)/../cocos2d/external",
-					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
+					"\"$(SRCROOT)/../cocos2d\"",
+					"\"$(SRCROOT)/../cocos2d/cocos\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/base\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/physics\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/math\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/2d\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/ui\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/network\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/audio/include\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/editor-support\"",
+					"\"$(SRCROOT)/../cocos2d/extensions\"",
+					"\"$(SRCROOT)/../cocos2d/external\"",
+					"\"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk\"",
+					"/opt/android-ndk-r10e/platforms/android-8/arch-arm/usr/include",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
@@ -706,19 +723,20 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../cocos2d",
-					"$(SRCROOT)/../cocos2d/cocos",
-					"$(SRCROOT)/../cocos2d/cocos/base",
-					"$(SRCROOT)/../cocos2d/cocos/physics",
-					"$(SRCROOT)/../cocos2d/cocos/math",
-					"$(SRCROOT)/../cocos2d/cocos/2d",
-					"$(SRCROOT)/../cocos2d/cocos/ui",
-					"$(SRCROOT)/../cocos2d/cocos/network",
-					"$(SRCROOT)/../cocos2d/cocos/audio/include",
-					"$(SRCROOT)/../cocos2d/cocos/editor-support",
-					"$(SRCROOT)/../cocos2d/extensions",
-					"$(SRCROOT)/../cocos2d/external",
-					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
+					"\"$(SRCROOT)/../cocos2d\"",
+					"\"$(SRCROOT)/../cocos2d/cocos\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/base\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/physics\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/math\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/2d\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/ui\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/network\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/audio/include\"",
+					"\"$(SRCROOT)/../cocos2d/cocos/editor-support\"",
+					"\"$(SRCROOT)/../cocos2d/extensions\"",
+					"\"$(SRCROOT)/../cocos2d/external\"",
+					"\"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk\"",
+					"/opt/android-ndk-r10e/platforms/android-8/arch-arm/usr/include",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";

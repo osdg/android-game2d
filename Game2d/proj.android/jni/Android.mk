@@ -6,13 +6,15 @@ $(call import-add-path,$(LOCAL_PATH)/../../cocos2d)
 $(call import-add-path,$(LOCAL_PATH)/../../cocos2d/external)
 $(call import-add-path,$(LOCAL_PATH)/../../cocos2d/cocos)
 
-LOCAL_MODULE := cocos2dcpp_shared
+LOCAL_MODULE := game2d_shared
 
-LOCAL_MODULE_FILENAME := libcocos2dcpp
+LOCAL_MODULE_FILENAME := libgame2d
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-                   ../../Classes/HelloWorldScene.cpp
+                   ../../Classes/HelloWorldScene.cpp \
+                   ../../Classes/JniHelper.cpp \
+                   ../../Classes/org_osdg_game2d_Director.cpp 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 

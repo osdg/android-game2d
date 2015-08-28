@@ -1,0 +1,2 @@
+include ':app', ':libgame2d', ':hellogame2d'
+include ':libcocos2dx'
