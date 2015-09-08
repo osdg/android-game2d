@@ -27,3 +27,15 @@ void Java_org_osdg_game2d_Label_nativeSetString
         (JNIEnv *, jobject, jlong pointer, jstring str) {
     convert(pointer)->setString(cocos2d::JniHelper::jstring2string(str));
 }
+
+
+
+/*
+ * Class:     org_osdg_game2d_Label
+ * Method:    setSystemFontSize
+ * Signature: (JF)V
+ */
+void Java_org_osdg_game2d_Label_setSystemFontSize
+(JNIEnv *, jobject, jlong self, jfloat size){
+    convert(self)->setSystemFontSize(size);
+}

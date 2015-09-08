@@ -12,4 +12,10 @@ public class Label extends Node {
     }
 
     private native void nativeSetString(long nativeObjectPointer, String str);
+
+    public void setSystemFontSize(float size){
+        setSystemFontSize(getNativeObjectPointer(),size);
+    }
+
+    private native void setSystemFontSize(long self,float size);
 }

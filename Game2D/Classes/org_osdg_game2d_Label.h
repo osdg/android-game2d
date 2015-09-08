@@ -23,6 +23,14 @@ JNIEXPORT jlong JNICALL Java_org_osdg_game2d_Label_createNativeObject
 JNIEXPORT void JNICALL Java_org_osdg_game2d_Label_nativeSetString
   (JNIEnv *, jobject, jlong, jstring);
 
+/*
+ * Class:     org_osdg_game2d_Label
+ * Method:    setSystemFontSize
+ * Signature: (JF)V
+ */
+JNIEXPORT void JNICALL Java_org_osdg_game2d_Label_setSystemFontSize
+  (JNIEnv *, jobject, jlong, jfloat);
+
 #ifdef __cplusplus
 }
 #endif

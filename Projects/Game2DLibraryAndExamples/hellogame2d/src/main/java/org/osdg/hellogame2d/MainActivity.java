@@ -25,7 +25,8 @@ public class MainActivity extends Game2DActivity {
 
         Director.getInstance().runWithScene(s);
 
-        l.setPosition(300,300);
+        label.setPosition(300,300);
+        label.setSystemFontSize(50);
 
     }
 }
