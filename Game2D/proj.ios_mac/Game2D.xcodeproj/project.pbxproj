@@ -59,10 +59,18 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		65D2004FFFB8B8E48B702C0A /* org_osdg_game2d_Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20271F852F8044E1C87EF /* org_osdg_game2d_Scene.cpp */; };
+		65D2018E5F04906C7AF2252F /* org_osdg_game2d_Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D204AF81D2D6D3A00DFD56 /* org_osdg_game2d_Layer.cpp */; };
 		65D20560133F95BCEC05DA33 /* org_osdg_game2d_Director.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */; };
+		65D207878484D597DCB78406 /* org_osdg_game2d_Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D207DD1487167BD9571869 /* org_osdg_game2d_Label.cpp */; };
+		65D20788D143D212E0AA50AD /* org_osdg_game2d_Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D204AF81D2D6D3A00DFD56 /* org_osdg_game2d_Layer.cpp */; };
 		65D20A563AF25271D13FE79E /* JniHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2073745416881C52BF675 /* JniHelper.cpp */; };
+		65D20A78FF1B77047C9EAABE /* org_osdg_game2d_Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D207DD1487167BD9571869 /* org_osdg_game2d_Label.cpp */; };
+		65D20C528C1B76FD88511732 /* org_osdg_game2d_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20F5E6958D316A8A30969 /* org_osdg_game2d_Node.cpp */; };
 		65D20D4952E27E12BCCA69B5 /* org_osdg_game2d_Director.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */; };
+		65D20D60B252B865D6FB9C73 /* org_osdg_game2d_Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20271F852F8044E1C87EF /* org_osdg_game2d_Scene.cpp */; };
 		65D20F9208BFC79FBF5F650E /* JniHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D2073745416881C52BF675 /* JniHelper.cpp */; };
+		65D20FB9E80DFBB582A3E54F /* org_osdg_game2d_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65D20F5E6958D316A8A30969 /* org_osdg_game2d_Node.cpp */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -157,10 +165,18 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		65D20177AEDD0F9F0ECEC80E /* org_osdg_game2d_Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_osdg_game2d_Layer.h; sourceTree = "<group>"; };
+		65D201EF84108C268C285209 /* org_osdg_game2d_Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_osdg_game2d_Scene.h; sourceTree = "<group>"; };
+		65D20271F852F8044E1C87EF /* org_osdg_game2d_Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = org_osdg_game2d_Scene.cpp; sourceTree = "<group>"; };
+		65D204AF81D2D6D3A00DFD56 /* org_osdg_game2d_Layer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = org_osdg_game2d_Layer.cpp; sourceTree = "<group>"; };
 		65D20584D179B32CB82A28CC /* JniHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JniHelper.h; sourceTree = "<group>"; };
+		65D206026D408A5B4CBC589D /* org_osdg_game2d_Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_osdg_game2d_Label.h; sourceTree = "<group>"; };
 		65D2073745416881C52BF675 /* JniHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JniHelper.cpp; sourceTree = "<group>"; };
+		65D207DD1487167BD9571869 /* org_osdg_game2d_Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = org_osdg_game2d_Label.cpp; sourceTree = "<group>"; };
+		65D2095DB76FCA6185CB35ED /* org_osdg_game2d_Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_osdg_game2d_Node.h; sourceTree = "<group>"; };
 		65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = org_osdg_game2d_Director.cpp; sourceTree = "<group>"; };
 		65D20C4415BBC0C125072D5E /* org_osdg_game2d_Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = org_osdg_game2d_Director.h; sourceTree = "<group>"; };
+		65D20F5E6958D316A8A30969 /* org_osdg_game2d_Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = org_osdg_game2d_Node.cpp; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -313,6 +329,14 @@
 				65D20584D179B32CB82A28CC /* JniHelper.h */,
 				65D20C4415BBC0C125072D5E /* org_osdg_game2d_Director.h */,
 				65D20ABFAB85C5F8497B365C /* org_osdg_game2d_Director.cpp */,
+				65D201EF84108C268C285209 /* org_osdg_game2d_Scene.h */,
+				65D20271F852F8044E1C87EF /* org_osdg_game2d_Scene.cpp */,
+				65D206026D408A5B4CBC589D /* org_osdg_game2d_Label.h */,
+				65D20177AEDD0F9F0ECEC80E /* org_osdg_game2d_Layer.h */,
+				65D207DD1487167BD9571869 /* org_osdg_game2d_Label.cpp */,
+				65D204AF81D2D6D3A00DFD56 /* org_osdg_game2d_Layer.cpp */,
+				65D2095DB76FCA6185CB35ED /* org_osdg_game2d_Node.h */,
+				65D20F5E6958D316A8A30969 /* org_osdg_game2d_Node.cpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -518,6 +542,10 @@
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				65D20F9208BFC79FBF5F650E /* JniHelper.cpp in Sources */,
 				65D20D4952E27E12BCCA69B5 /* org_osdg_game2d_Director.cpp in Sources */,
+				65D2004FFFB8B8E48B702C0A /* org_osdg_game2d_Scene.cpp in Sources */,
+				65D20A78FF1B77047C9EAABE /* org_osdg_game2d_Label.cpp in Sources */,
+				65D20788D143D212E0AA50AD /* org_osdg_game2d_Layer.cpp in Sources */,
+				65D20C528C1B76FD88511732 /* org_osdg_game2d_Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +558,10 @@
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				65D20A563AF25271D13FE79E /* JniHelper.cpp in Sources */,
 				65D20560133F95BCEC05DA33 /* org_osdg_game2d_Director.cpp in Sources */,
+				65D20D60B252B865D6FB9C73 /* org_osdg_game2d_Scene.cpp in Sources */,
+				65D207878484D597DCB78406 /* org_osdg_game2d_Label.cpp in Sources */,
+				65D2018E5F04906C7AF2252F /* org_osdg_game2d_Layer.cpp in Sources */,
+				65D20FB9E80DFBB582A3E54F /* org_osdg_game2d_Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,3 +2,7 @@
 
 cd src/main/java
 javah -d ../../../../../../Game2D/Classes/ -jni org.osdg.game2d.Director
+javah -d ../../../../../../Game2D/Classes/ -jni org.osdg.game2d.Scene
+javah -d ../../../../../../Game2D/Classes/ -jni org.osdg.game2d.Layer
+javah -d ../../../../../../Game2D/Classes/ -jni org.osdg.game2d.Label
+javah -d ../../../../../../Game2D/Classes/ -jni org.osdg.game2d.Node

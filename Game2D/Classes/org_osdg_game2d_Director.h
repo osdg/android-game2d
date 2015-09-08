@@ -23,6 +23,14 @@ JNIEXPORT jlong JNICALL Java_org_osdg_game2d_Director_createNativeObject
 JNIEXPORT void JNICALL Java_org_osdg_game2d_Director_nativeSetDisplayStats
   (JNIEnv *, jobject, jlong, jboolean);
 
+/*
+ * Class:     org_osdg_game2d_Director
+ * Method:    runWithScene
+ * Signature: (JJ)V
+ */
+JNIEXPORT void JNICALL Java_org_osdg_game2d_Director_runWithScene
+  (JNIEnv *, jobject, jlong, jlong);
+
 #ifdef __cplusplus
 }
 #endif

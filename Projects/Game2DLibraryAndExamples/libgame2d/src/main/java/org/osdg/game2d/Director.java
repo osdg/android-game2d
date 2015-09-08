@@ -11,16 +11,21 @@ public class Director extends Game2DObject {
     }
 
     private Director() {
-        nativeInstanceId = createNativeObject();
     }
-    private native long createNativeObject();
+
+    @Override
+    native long createNativeObject();
 
     public void setDisplayStats(boolean value){
-        nativeSetDisplayStats(nativeInstanceId,value);
+        nativeSetDisplayStats(getNativeObjectPointer(),value);
     }
 
     private native void nativeSetDisplayStats(long nativeInstanceId, boolean value);
 
+    public void runWithScene(Scene scene){
+        runWithScene(getNativeObjectPointer(),scene.getNativeObjectPointer());
+    }
 
-    private long nativeInstanceId = 0;
+    private native void runWithScene(long self,long scene);
+
 }
