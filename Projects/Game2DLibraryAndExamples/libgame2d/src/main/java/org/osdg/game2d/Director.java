@@ -14,6 +14,9 @@ public class Director extends Game2DObject {
     }
 
     @Override
+    long createNativeObject(Object[] args) {
+        return createNativeObject();
+    }
     native long createNativeObject();
 
     public void setDisplayStats(boolean value){

@@ -9,14 +9,6 @@ extern "C" {
 #endif
 /*
  * Class:     org_osdg_game2d_Label
- * Method:    createNativeObject
- * Signature: ()J
- */
-JNIEXPORT jlong JNICALL Java_org_osdg_game2d_Label_createNativeObject
-  (JNIEnv *, jobject);
-
-/*
- * Class:     org_osdg_game2d_Label
  * Method:    nativeSetString
  * Signature: (JLjava/lang/String;)V
  */
@@ -30,6 +22,14 @@ JNIEXPORT void JNICALL Java_org_osdg_game2d_Label_nativeSetString
  */
 JNIEXPORT void JNICALL Java_org_osdg_game2d_Label_setSystemFontSize
   (JNIEnv *, jobject, jlong, jfloat);
+
+/*
+ * Class:     org_osdg_game2d_Label
+ * Method:    createNativeObject
+ * Signature: ()J
+ */
+JNIEXPORT jlong JNICALL Java_org_osdg_game2d_Label_createNativeObject
+  (JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }

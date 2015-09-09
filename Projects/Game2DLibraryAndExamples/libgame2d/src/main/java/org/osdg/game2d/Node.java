@@ -5,6 +5,14 @@ package org.osdg.game2d;
  */
 public abstract class Node extends Game2DObject {
 
+
+    public Node() {
+    }
+
+    public Node(Object[] args) {
+        super(args);
+    }
+
     public void addChild(Node node) {
         addChild(getNativeObjectPointer(), node.getNativeObjectPointer());
     }

@@ -18,6 +18,7 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/org_osdg_game2d_Scene.cpp \
                    ../../Classes/org_osdg_game2d_Layer.cpp \
                    ../../Classes/org_osdg_game2d_Node.cpp \
+                   ../../Classes/org_osdg_game2d_Sprite.cpp \
                    ../../Classes/org_osdg_game2d_Label.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes

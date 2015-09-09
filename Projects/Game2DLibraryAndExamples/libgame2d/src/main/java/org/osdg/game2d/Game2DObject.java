@@ -7,17 +7,21 @@ abstract class Game2DObject {
 
     private long nativeObjectPointer = 0;
 
-    Game2DObject(){
-        nativeObjectPointer = createNativeObject();
+    Game2DObject() {
+        nativeObjectPointer = createNativeObject(null);
     }
 
-    abstract long createNativeObject();
+    Game2DObject(Object[] args){
+        nativeObjectPointer = createNativeObject(args);
+    }
+
+    abstract long createNativeObject(Object[] args);
 
     long getNativeObjectPointer() {
         return nativeObjectPointer;
     }
 
     public boolean equals(Game2DObject o) {
-        return getNativeObjectPointer()==o.getNativeObjectPointer();
+        return getNativeObjectPointer() == o.getNativeObjectPointer();
     }
 }

@@ -5,6 +5,7 @@ import org.osdg.game2d.Game2DActivity;
 import org.osdg.game2d.Label;
 import org.osdg.game2d.Layer;
 import org.osdg.game2d.Scene;
+import org.osdg.game2d.Sprite;
 
 public class MainActivity extends Game2DActivity {
 
@@ -13,7 +14,7 @@ public class MainActivity extends Game2DActivity {
     protected void onCreationComplete() {
         super.onCreationComplete();
 
-//        Director.getInstance().setDisplayStats(true);
+        Director.getInstance().setDisplayStats(true);
 
         Scene s = new Scene();
         Layer l = new Layer();
@@ -25,8 +26,7 @@ public class MainActivity extends Game2DActivity {
 
         Director.getInstance().runWithScene(s);
 
-        label.setPosition(300,300);
+        label.setPosition(300, 300);
         label.setSystemFontSize(50);
-
     }
 }
