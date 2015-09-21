@@ -9,7 +9,7 @@ public class Scene extends Node {
     native long createNativeObject();
 
     @Override
-    long createNativeObject(Object[] args) {
+    protected long createNativeObject(Object[] args) {
         return createNativeObject();
     }
 }

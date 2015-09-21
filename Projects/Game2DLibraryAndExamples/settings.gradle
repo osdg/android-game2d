@@ -1,2 +1,2 @@
-include ':app', ':libgame2d', ':hellogame2d', ':spriteexample', ':toucheventexample'
+include ':app', ':libgame2d', ':hellogame2d', ':spriteexample', ':toucheventexample', ':actionsexamples'
 include ':libcocos2dx'

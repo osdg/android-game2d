@@ -8,7 +8,7 @@ public class Layer extends Node {
 
     native long createNativeObject();
     @Override
-    long createNativeObject(Object[] args) {
+    protected long createNativeObject(Object[] args) {
         return createNativeObject();
     }
 }

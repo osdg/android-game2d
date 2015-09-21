@@ -14,7 +14,7 @@ public class Sprite extends Node {
     }
 
     @Override
-    long createNativeObject(Object[] args) {
+    protected long createNativeObject(Object[] args) {
         if (args!=null&&args.length>=1&&args[0] instanceof String){
             return createNativeObject(args[0].toString());
         }else {

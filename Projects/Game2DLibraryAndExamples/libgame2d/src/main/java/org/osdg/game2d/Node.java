@@ -1,9 +1,11 @@
 package org.osdg.game2d;
 
+import org.osdg.game2d.actions.Action;
+
 /**
  * Created by plter on 9/8/15.
  */
-public abstract class Node extends Game2DObject {
+public abstract class Node extends Ref {
 
 
     public Node() {
@@ -24,4 +26,9 @@ public abstract class Node extends Game2DObject {
     }
 
     private native void setPosition(long self, float x, float y);
+
+    public void runAction(Action action){
+        runAction(getNativeObjectPointer(),action.getNativeObjectPointer());
+    }
+    private native void runAction(long self,long action);
 }

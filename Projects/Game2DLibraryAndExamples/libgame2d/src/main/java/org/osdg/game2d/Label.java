@@ -18,7 +18,7 @@ public class Label extends Node {
     private native void setSystemFontSize(long self,float size);
 
     @Override
-    long createNativeObject(Object[] args) {
+    protected long createNativeObject(Object[] args) {
         return createNativeObject();
     }
     native long createNativeObject();

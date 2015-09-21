@@ -23,6 +23,14 @@ JNIEXPORT void JNICALL Java_org_osdg_game2d_Node_addChild
 JNIEXPORT void JNICALL Java_org_osdg_game2d_Node_setPosition
   (JNIEnv *, jobject, jlong, jfloat, jfloat);
 
+/*
+ * Class:     org_osdg_game2d_Node
+ * Method:    runAction
+ * Signature: (JJ)V
+ */
+JNIEXPORT void JNICALL Java_org_osdg_game2d_Node_runAction
+  (JNIEnv *, jobject, jlong, jlong);
+
 #ifdef __cplusplus
 }
 #endif
